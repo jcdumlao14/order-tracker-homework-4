@@ -6,8 +6,12 @@ services:
     build: .
     ports:
       - "127.0.0.1:${ORDER_TRACKER_PORT:-8000}:8000"
+
     environment:
       ORDER_DB_PATH: /data/orders.db
+      OTEL_EXPORTER_OTLP_ENDPOINT: host.docker.internal:14317
+      OTEL_SERVICE_NAME: order-tracker
+
     volumes:
       - orders:/data
     restart: unless-stopped

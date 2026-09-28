@@ -1,0 +1,250 @@
+INFO:     127.0.0.1:40668 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39252 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39268 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55840 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48082 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48090 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51364 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51366 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35324 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35338 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48270 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48284 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41428 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41436 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37096 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37108 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48430 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48446 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49468 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49480 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45696 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45704 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33618 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33628 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39900 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39916 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37786 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37800 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56420 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56430 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48968 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48982 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51486 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51488 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37832 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37836 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42118 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42122 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35806 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35814 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56636 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56650 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50752 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50754 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48640 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48656 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41386 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52866 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52872 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39374 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39386 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33158 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33172 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47752 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47766 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34370 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34372 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48540 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48542 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38662 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38668 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38474 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38488 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47802 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47816 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50468 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50480 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59104 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59106 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57654 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57660 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33168 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33180 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57336 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57340 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53020 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53034 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48702 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48708 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54964 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54976 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59496 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59498 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56338 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56344 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33094 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33110 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59606 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59614 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47444 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47450 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51870 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51876 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57902 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37570 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37580 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51548 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51554 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33616 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33628 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55652 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55658 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55944 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55950 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33108 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33120 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34574 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34576 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56190 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56206 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40430 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40440 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43222 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43226 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56990 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56994 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34464 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34468 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59314 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59326 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48840 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48852 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56514 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56518 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58054 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58068 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34098 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34100 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50718 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50722 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55858 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36960 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36966 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36108 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36112 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39030 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39036 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46712 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46714 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60436 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60900 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60912 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38754 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38770 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53812 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53818 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57794 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33098 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33102 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47532 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47548 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52434 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52450 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54308 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54320 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49448 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39202 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39204 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45056 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45068 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50196 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50200 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54578 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54594 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47712 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47726 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60786 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60792 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59434 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59436 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40590 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40600 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33016 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33026 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47648 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47658 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44968 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44972 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     10.215.24.1:59584 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     10.215.24.1:59598 - "GET /api/orders/express-1002 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/app/.venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/applications.py", line 1163, in __call__
+    await super().__call__(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/app/.venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/app/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/app/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/starlette/routing.py", line 670, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 1281, in handle
+    await super().handle(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/starlette/routing.py", line 280, in handle
+    await self.app(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/app/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/app/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 706, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 354, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/main.py", line 129, in get_order
+    order = order_detail(row)
+            ^^^^^^^^^^^^^^^^^
+  File "/app/app/main.py", line 59, in order_detail
+    estimated_at = placed_at.replace(day=placed_at.day + 2)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: day is out of range for month

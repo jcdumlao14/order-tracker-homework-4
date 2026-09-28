@@ -1,0 +1,16 @@
+incident_id=ORDER-TRACKER-5XX-001
+collected_at_utc=20260928T032913Z
+application_url=http://127.0.0.1:18080
+prometheus_url=http://127.0.0.1:19090
+affected_order=express-1002
+
+Files:
+alert-state.txt
+application-logs.txt
+express-1002-response.txt
+git-metadata.txt
+healthz.txt
+manifest.txt
+prometheus-5xx-increase.txt
+prometheus-order-lookup.txt
+source-context.txt

@@ -1,0 +1,29 @@
+{
+    "incident_id":  "ORDER-TRACKER-5XX-001",
+    "verified_at_utc":  "2026-09-28T06:20:16Z",
+    "application":  {
+                        "health_status":  200,
+                        "express_order_status":  200,
+                        "express_order_response":  {
+                                                       "id":  "express-1002",
+                                                       "customer":  "Sam",
+                                                       "item":  "Headphones",
+                                                       "priority":  "express",
+                                                       "status":  "preparing",
+                                                       "created_at":  "2026-08-31T01:24:46.688379+00:00",
+                                                       "estimated_delivery":  "2026-09-02"
+                                                   }
+                    },
+    "observability":  {
+                          "five_xx_increase_5m":  [
+
+                                                  ],
+                          "alert_active":  false,
+                          "alert_name":  "OrderTrackerLookup5xx"
+                      },
+    "verification":  {
+                         "express_order_recovered":  true,
+                         "five_xx_increase_is_zero":  true,
+                         "alert_is_not_firing":  true
+                     }
+}

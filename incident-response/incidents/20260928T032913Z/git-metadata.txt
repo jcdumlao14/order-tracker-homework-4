@@ -1,0 +1,23 @@
+=== git status ===
+## homework-4
+ M app/main.py
+ M compose.yaml
+ M pyproject.toml
+ M uv.lock
+?? app/telemetry.py
+?? incident-response/
+?? observability/
+
+=== git branch ===
+homework-4
+
+=== git log ===
+72de447 (HEAD -> homework-4, origin/main, origin/HEAD, main) Simplify local Compose startup
+9f61e92 Add order tracker starter
+
+=== git diff --stat ===
+ app/main.py    |  55 +++++++++++--
+ compose.yaml   |   7 +-
+ pyproject.toml |   3 +
+ uv.lock        | 255 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 4 files changed, 308 insertions(+), 12 deletions(-)

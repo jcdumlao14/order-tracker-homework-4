@@ -1,0 +1,50 @@
+=== app/main.py relevant lines ===
+51-def as_dict(row):
+52-    return dict(row) if row else None
+53-
+54-
+55-def order_detail(row):
+56-    order = as_dict(row)
+57-    if order["priority"] == "express":
+58-        placed_at = datetime.fromisoformat(order["created_at"])
+59:        estimated_at = placed_at.replace(day=placed_at.day + 2)
+60-        order["estimated_delivery"] = estimated_at.date().isoformat()
+61-    return order
+62-
+63-
+64-class NewOrder(BaseModel):
+65-    customer: str = Field(min_length=1, max_length=80)
+66-    item: str = Field(min_length=1, max_length=120)
+67-    priority: str = "standard"
+68-
+69-
+70-class StatusUpdate(BaseModel):
+71-    status: str
+
+=== app/main.py order_detail ===
+50-
+51-def as_dict(row):
+52-    return dict(row) if row else None
+53-
+54-
+55:def order_detail(row):
+56-    order = as_dict(row)
+57-    if order["priority"] == "express":
+58-        placed_at = datetime.fromisoformat(order["created_at"])
+59-        estimated_at = placed_at.replace(day=placed_at.day + 2)
+60-        order["estimated_delivery"] = estimated_at.date().isoformat()
+61-    return order
+62-
+63-
+64-class NewOrder(BaseModel):
+65-    customer: str = Field(min_length=1, max_length=80)
+66-    item: str = Field(min_length=1, max_length=120)
+67-    priority: str = "standard"
+68-
+69-
+70-class StatusUpdate(BaseModel):
+71-    status: str
+72-
+73-
+74-@asynccontextmanager
+75-async def lifespan(_app: FastAPI):

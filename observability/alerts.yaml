@@ -1,0 +1,14 @@
+﻿groups:
+  - name: order-tracker-user-impact
+    rules:
+      - alert: OrderTrackerLookup5xx
+        expr: increase(order_lookup_status_total{http_status_code=~"5.."}[5m]) > 0
+        for: 10s
+        labels:
+          severity: critical
+          impact: user
+          service: order-tracker
+        annotations:
+          summary: "Order Tracker lookup is returning 5xx responses"
+          description: "The order lookup endpoint returned one or more 5xx responses during the last five minutes."
+          runbook: "incident-response/runbooks/verify-recovery.sh"

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Order Tracker Incident Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "incident_id",
+    "summary",
+    "impact",
+    "evidence",
+    "root_cause",
+    "confidence",
+    "proposed_action",
+    "autonomy_decision",
+    "escalation_required",
+    "last_line"
+  ],
+  "properties": {
+    "incident_id": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "impact": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "root_cause": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "proposed_action": {
+      "type": "string"
+    },
+    "autonomy_decision": {
+      "type": "string",
+      "enum": [
+        "observe_only",
+        "propose_only",
+        "allowed",
+        "escalate"
+      ]
+    },
+    "escalation_required": {
+      "type": "boolean"
+    },
+    "last_line": {
+      "type": "string"
+    }
+  }
+}

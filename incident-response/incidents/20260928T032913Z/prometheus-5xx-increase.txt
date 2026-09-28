@@ -1,0 +1,1 @@
+{"status":"success","data":{"resultType":"vector","result":[{"metric":{"exported_instance":"09f9b016-88c2-4525-ac13-48a4b6dab0ae","exported_job":"order-tracker","http_status_code":"500","instance":"otel-collector:8889","job":"otel-collector","otel_scope_name":"order-tracker"},"value":[1790566154.877,"0"]}]}}

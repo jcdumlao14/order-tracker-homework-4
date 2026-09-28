@@ -1,0 +1,19 @@
+{
+  "incident_id": "ORDER-TRACKER-5XX-001",
+  "summary": "The supplied evidence confirms that looking up affected order express-1002 fails with HTTP 500. The service health endpoint returns HTTP 200, but that does not rule out endpoint-specific failures.",
+  "impact": "At least the affected order lookup is impacted. The evidence does not establish how many users or other orders are affected.",
+  "evidence": [
+    "GET /api/orders/express-1002 returned HTTP 500 Internal Server Error.",
+    "Application logs record the same order lookup returning HTTP 500 and show a traceback ending in ValueError: day is out of range for month.",
+    "Source context shows express-order estimated delivery is calculated with placed_at.replace(day=placed_at.day + 2).",
+    "Prometheus reports order_lookup_status_total with http_status_code=500 at value 2.",
+    "GET /healthz returned {\"status\":\"ok\"}.",
+    "Git metadata shows app/main.py has uncommitted modifications."
+  ],
+  "root_cause": "The logged exception and source context support the inference that the express-order date calculation sets the calendar day to two greater than the placed date's day. For a date near the end of a month, that day may be invalid, raising ValueError and causing HTTP 500.",
+  "confidence": "high",
+  "proposed_action": "Escalate to the application owner to review the express-order delivery date calculation and prepare a calendar-safe date addition, then validate it through the normal review and release process. Do not apply the fix during this first-response investigation.",
+  "autonomy_decision": "escalate",
+  "escalation_required": true,
+  "last_line": "The incident is confirmed for express-1002; remediation is recommended for owner review and is not authorized under the first-responder policy."
+}

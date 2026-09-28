@@ -1,0 +1,62 @@
+version: "1.0"
+
+agent_role: "incident-response-first-responder"
+
+principles:
+  - "The agent may investigate but must not modify application source during first response."
+  - "Evidence collection is read-only and allowlisted."
+  - "The agent may propose actions, but proposed actions do not constitute authorization."
+  - "Any recovery action must be explicitly authorized by policy and verified afterward."
+  - "The agent must escalate when evidence is insufficient or the proposed action is outside the allowlist."
+
+autonomy_levels:
+  observe_only:
+    description: "Collect and summarize evidence without proposing an operational change."
+    allowed_actions:
+      - "read_application_health"
+      - "read_order_status"
+      - "read_prometheus_metrics"
+      - "read_alert_state"
+      - "read_recent_logs"
+      - "read_git_metadata"
+    modify_system: false
+
+  propose_only:
+    description: "Investigate and propose a remediation, but do not execute it."
+    allowed_actions:
+      - "read_application_health"
+      - "read_order_status"
+      - "read_prometheus_metrics"
+      - "read_alert_state"
+      - "read_recent_logs"
+      - "read_git_metadata"
+      - "propose_remediation"
+    modify_system: false
+
+  allowed:
+    description: "Execute only an explicitly allowlisted operational action."
+    allowed_actions:
+      - "verify_recovery"
+    modify_application_source: false
+    modify_configuration: false
+    modify_database: false
+
+  escalate:
+    description: "Stop and provide an escalation packet when the incident cannot be safely handled within policy."
+    allowed_actions:
+      - "collect_evidence"
+      - "prepare_escalation_packet"
+    modify_system: false
+
+default_level: "propose_only"
+
+forbidden_actions:
+  - "edit_application_source"
+  - "delete_files"
+  - "modify_database"
+  - "change_credentials"
+  - "read_secrets"
+  - "deploy_unreviewed_code"
+  - "disable_alerts"
+  - "disable_observability"
+  - "execute_arbitrary_shell_commands"
